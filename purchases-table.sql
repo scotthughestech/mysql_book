@@ -1,0 +1,7 @@
+CREATE TABLE purchases
+(
+    id INT(9) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    date DATE NOT NULL,
+    price DECIMAL(10,2) NOT NULL,
+    description VARCHAR(255) NOT NULL
+);
